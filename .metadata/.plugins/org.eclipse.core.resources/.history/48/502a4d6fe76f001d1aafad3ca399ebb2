@@ -1,0 +1,31 @@
+package tugasBesar;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class RickyPutraSardika_35 {
+
+	public static void main(String[] args) throws NumberFormatException, IOException 
+	{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n_lianto;;
+		
+		System.out.print("Masukkan jumlah angka = ");
+		n_lianto = Integer.parseInt(br.readLine());
+		
+		int [] angka_lianto = new int[n_lianto];
+		for(int i_lianto = 0; i_lianto < n_lianto; i_lianto++)
+		{
+			System.out.print("Angka ke-" + (i_lianto+1) + " = ");
+			angka_lianto[i_lianto] = Integer.parseInt(br.readLine());
+		}
+		System.out.print("Bilangan ganjil dari angka yang diinput adalah ");
+		for(int i_lianto = 0; i_lianto < n_lianto; i_lianto++)
+		{
+			if(angka_lianto[i_lianto] % 2 == 1)
+				System.out.print(angka_lianto[i_lianto] + " ");
+		}
+	}
+
+}

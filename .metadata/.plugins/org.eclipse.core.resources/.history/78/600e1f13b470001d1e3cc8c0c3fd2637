@@ -1,0 +1,58 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_08 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int i_lianto, j_lianto;
+		int [] jumlah_lianto = new int[10];
+				
+		
+		System.out.print("Masukkan Angka = ");
+		i_lianto = Integer.parseInt(br.readLine());
+		System.out.println("");
+		
+		int loop_lianto = i_lianto;
+		int n_lianto = 0;
+		while(loop_lianto >= 1)
+		{
+			loop_lianto = loop_lianto / 10;
+			n_lianto = n_lianto + 1; 
+		}
+		
+		int[]frekuensi_lianto = new int[n_lianto];
+		for(j_lianto = 0; j_lianto < n_lianto; j_lianto++)
+		{
+			frekuensi_lianto[j_lianto] = i_lianto % 10;
+			i_lianto = i_lianto / 10;
+		}
+		for(j_lianto = 0; j_lianto < n_lianto; j_lianto++)
+		{
+			if(frekuensi_lianto[j_lianto] == 0)
+				jumlah_lianto[0]++;
+			else if(frekuensi_lianto[j_lianto] == 1)
+				jumlah_lianto[1]++;
+			else if(frekuensi_lianto[j_lianto] == 2)
+				jumlah_lianto[2]++;
+			else if(frekuensi_lianto[j_lianto] == 3)
+				jumlah_lianto[3]++;
+			else if(frekuensi_lianto[j_lianto] == 4)
+				jumlah_lianto[4]++;
+			else if(frekuensi_lianto[j_lianto] == 5)
+				jumlah_lianto[5]++;
+			else if(frekuensi_lianto[j_lianto] == 6)
+				jumlah_lianto[6]++;
+			else if(frekuensi_lianto[j_lianto] == 7)
+				jumlah_lianto[7]++;
+			else if(frekuensi_lianto[j_lianto] == 8)
+				jumlah_lianto[8]++;
+			else if(frekuensi_lianto[j_lianto] == 9)
+				jumlah_lianto[9]++;
+		}
+		for(j_lianto = 0; j_lianto < 10; j_lianto++)
+		{
+			System.out.println("Frekuesni Angka " + j_lianto + " = " + jumlah_lianto[j_lianto]);
+		}
+	}
+}

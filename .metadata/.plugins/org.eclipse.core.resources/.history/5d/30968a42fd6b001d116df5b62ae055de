@@ -1,0 +1,19 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_06 
+{
+	public static void main(String[] args) 
+	{
+		for(int i_ricky = 1; i_ricky<=5; i_ricky++)
+		{
+			for(int j_ricky = 1; j_ricky<=5; j_ricky++)
+			{
+				j_ricky++;
+				System.out.print(j_ricky);
+			}
+		System.out.println("");
+		}
+		
+	    
+	}
+}

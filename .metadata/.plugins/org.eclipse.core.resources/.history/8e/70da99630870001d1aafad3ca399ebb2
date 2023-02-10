@@ -1,0 +1,30 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_07 
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+
+        int angkaAwalPrima = 0, angkaPrima = 0, digitPrima;
+
+        System.out.print("Masukkan Angka = ");
+        angkaAwalPrima = input.nextInt();
+
+        angkaPrima = angkaAwalPrima;
+
+        System.out.print("Kebalikan dari angka " + angkaAwalPrima + " adalah ");
+
+        while (angkaPrima > 0)
+        {
+            digitPrima = angkaPrima % 10;
+            System.out.print(digitPrima);
+            angkaPrima = angkaPrima / 10;
+        }
+
+
+
+
+
+    }
+}

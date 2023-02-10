@@ -1,0 +1,19 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_35 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		
+		int angka_ricky [] = new int[100];
+		int jumlah_ricky = 0;
+		
+		for(int i_ricky = 0; i_ricky <= angka_ricky; i_ricky++)
+		{
+			
+		}
+		
+		
+	}	
+}

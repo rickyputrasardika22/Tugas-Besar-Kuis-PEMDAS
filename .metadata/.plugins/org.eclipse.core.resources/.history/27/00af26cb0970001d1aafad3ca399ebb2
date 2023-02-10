@@ -1,0 +1,23 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_14 
+{
+	public static void main(String[] args) 
+	{
+        int barisPrima = 5, kolomPrima = 5, i, j;
+
+        for (i = 1; i <= barisPrima; i++)
+        {
+            for (j = i; j <= kolomPrima; j++)
+            {
+                System.out.print(j + " ");
+            }
+
+            for (j = (i-1); j >= 1; j--)
+            {
+                System.out.print(j + " ");
+            }
+            System.out.println();
+        }
+    }
+}

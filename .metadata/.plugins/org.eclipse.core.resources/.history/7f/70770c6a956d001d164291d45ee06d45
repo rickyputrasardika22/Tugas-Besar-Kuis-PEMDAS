@@ -1,0 +1,21 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_36 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int data_ricky [] = new int[100];
+
+		
+		for(int i_ricky = 1; i_ricky<=4; i_ricky++)
+		{
+			System.out.print("Masukkan Data-" + i_ricky + " = ");
+			data_ricky [i_ricky]= ricky.nextInt();
+		}
+		for(int i_ricky = 1; i_ricky <= 4; i_ricky++)
+		{
+			System.out.print(data_ricky[i_ricky] + " ");
+		}	
+	}
+}

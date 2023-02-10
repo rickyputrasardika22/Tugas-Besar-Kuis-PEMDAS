@@ -1,0 +1,28 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_24 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int hargaBeli_ricky = 0;
+		int hargaJual_ricky = 0;
+		int keuntungan_ricky;
+		int kerugian_ricky;
+		
+		System.out.print("Masukkan Harga Beli Buku = Rp");
+		hargaBeli_ricky = ricky.nextInt();
+		System.out.print("Masukkan Harga Jual Buku = Rp");
+		hargaJual_ricky = ricky.nextInt();
+		
+		
+		if (hargaJual_ricky > hargaBeli_ricky)
+		{
+			System.out.print("Keuntungan = Rp " + (hargaJual_ricky - hargaBeli_ricky));
+		}
+		else if (hargaJual_ricky < hargaBeli_ricky)
+		{
+			System.out.print("Kerugian = Rp " + (hargaJual_ricky - hargaBeli_ricky));			
+		}	
+	}
+}

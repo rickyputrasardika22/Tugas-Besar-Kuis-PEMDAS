@@ -1,0 +1,24 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_28 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		double celsius_ricky;
+		double fahrenheit_ricky;
+		
+		System.out.print("Masukkan Suhu = ");
+		celsius_ricky = ricky.nextInt();
+		
+		System.out.println("-------------------------------------------------");
+		System.out.print(celsius_ricky + " Derajat Celsius\n");
+		
+		//konversi
+		//Fahrenheit = (9/5) * Celcius + 32
+		
+		fahrenheit_ricky = (9/5 *celsius_ricky) + 32;
+		System.out.println("-------------------------------------------------");
+		System.out.print(celsius_ricky + " Derajat Celsius = " + fahrenheit_ricky + " Derajat Farenheit");
+	}
+}

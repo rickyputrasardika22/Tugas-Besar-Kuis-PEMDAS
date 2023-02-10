@@ -1,0 +1,12 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_35 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		
+		int i=1, jum=0;while(i<=10){jum=jum+i;System.out.print(i+"+");
+		i++;}System.out.println();System.out.println("Penjumlahan 10 Himpunan pertama = "+jum);
+	}	
+}

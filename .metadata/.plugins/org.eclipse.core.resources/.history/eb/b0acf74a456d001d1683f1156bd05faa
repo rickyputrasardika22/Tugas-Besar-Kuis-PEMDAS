@@ -1,0 +1,33 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_26 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		char karakter_ricky;
+		String lanjut_ricky = "Ya" ;
+		char lower_ricky;
+		char upper_ricky;
+		
+		while(lanjut_ricky.equals("Ya") || lanjut_ricky.equals("ya"))
+		{
+			System.out.print("Masukkan Karakter = ");
+			karakter_ricky = ricky.next().charAt(0);
+			
+			
+			if(Character.isUpperCase(karakter_ricky))
+			{
+				System.out.println("Karakter " + karakter_ricky + " adalah UpperCase");
+			}	
+			else if(Character.isLowerCase(karakter_ricky))
+			{
+				System.out.println("Karakter " + karakter_ricky + " adalah LowerCase");
+			}	
+		System.out.print("Apakah Ingin Lanjut ? ");	
+		lanjut_ricky = ricky.next();
+		}
+		
+		
+	}
+}

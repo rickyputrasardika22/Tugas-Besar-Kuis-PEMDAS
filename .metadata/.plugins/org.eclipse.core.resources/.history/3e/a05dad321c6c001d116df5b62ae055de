@@ -1,0 +1,30 @@
+package tugasBesar;
+
+public class RickyPutraSardika_13 
+{
+	public static void main(String[] args) 
+	{
+		int k_ricky = 0;
+		for (int i_ricky = 5; i_ricky > 0; i_ricky--)
+		{
+			for (int j_ricky = 5; j_ricky > 0; j_ricky--)
+			{
+				if (i_ricky == 1)
+				{
+					System.out.print(j_ricky);
+				}
+				else if (i_ricky == 5)
+				{
+					k_ricky = 5;
+					System.out.print(k_ricky);
+				}
+				else if (i_ricky == 2)
+				{
+					k_ricky = 4;
+					System.err.print(k_ricky);
+				}	
+			}
+		System.out.println("");	
+		}	
+	}
+}

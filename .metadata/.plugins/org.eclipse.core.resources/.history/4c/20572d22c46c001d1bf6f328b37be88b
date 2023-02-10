@@ -1,0 +1,15 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_23 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		
+		char c;
+
+	    for(c = 'A'; c <= 'Z'; c++)
+	    	
+	      System.out.print(c + " ");
+	}
+}

@@ -1,0 +1,25 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_07 
+{
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+
+        int angka_ricky = 0, angka1_ricky = 0, digit_ricky;
+
+        System.out.print("Masukkan Angka = ");
+        angka_ricky = input.nextInt();
+
+        angka1_ricky = angka_ricky;
+
+        System.out.print("Kebalikan dari angka " + angka_ricky + " adalah ");
+
+        while (angka1_ricky > 0)
+        {
+            digit_ricky = angka1_ricky % 10;
+            System.out.print(digit_ricky);
+            angka1_ricky = angka1_ricky / 10;
+        }
+    }
+}

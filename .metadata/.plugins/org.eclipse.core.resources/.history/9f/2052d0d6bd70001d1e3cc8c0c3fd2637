@@ -1,0 +1,40 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_23 
+{
+	public static void main(String[] args) 
+	{
+		 char karakterPrima = 0;
+	        String ulangPrima = "Ya";
+	        Scanner inputPrima = new Scanner(System.in);
+
+	        while(ulangPrima.equalsIgnoreCase("ya") || ulangPrima.equalsIgnoreCase("Ya") || ulangPrima.equalsIgnoreCase("YA"))
+	        {
+	            System.out.print("Masukkan Karakter = ");
+	            karakterPrima = inputPrima.next().charAt(0);
+	            boolean alfabet = (karakterPrima == 'a' || karakterPrima == 'b' || karakterPrima == 'c' || karakterPrima == 'd' || karakterPrima == 'e' || karakterPrima == 'f' || karakterPrima == 'g' || karakterPrima == 'h' || karakterPrima == 'i' || karakterPrima == 'j' || karakterPrima == 'k' || karakterPrima == 'l' || karakterPrima == 'm' || karakterPrima == 'n' || karakterPrima == 'o' || karakterPrima == 'p' || karakterPrima == 'q' || karakterPrima == 'r' || karakterPrima == 's' || karakterPrima == 't' || karakterPrima == 'u' || karakterPrima == 'v' || karakterPrima == 'w' || karakterPrima == 'x' || karakterPrima == 'y' || karakterPrima == 'z');
+
+	            if (alfabet == true)
+	            {
+	                System.out.println("Karakter " + karakterPrima + " adalah alfabet");
+	            }
+
+	            else
+	            {
+	                System.out.println("Karakter " + karakterPrima + " bukan alfabet");
+	            }
+
+	            System.out.print("Apakah ingin lanjut? ");
+	            ulangPrima = inputPrima.next();
+	            System.out.println();
+
+	            if (ulangPrima.equalsIgnoreCase("Tidak") || ulangPrima.equalsIgnoreCase("tidak"))
+	            {
+	                break;
+	            }
+	        }
+
+	    
+	
+	}
+}

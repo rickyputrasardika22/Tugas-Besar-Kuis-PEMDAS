@@ -1,0 +1,83 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_10 
+{
+    public static void main(String[] args)
+    {
+        Scanner ricky = new Scanner(System.in);
+        String angka_ricky;
+
+        System.out.print("Masukkan Angka = ");
+        angka_ricky = ricky.next();
+
+        int panjangDigit_ricky = angka_ricky.length();
+
+        System.out.print("Output = ");
+
+        for (int i_ricky = 0; i_ricky < panjangDigit_ricky; i_ricky++)
+        {
+            switch (angka_ricky.charAt(i_ricky))
+            {
+                case '0':
+                {
+                    System.out.print(" Nol ");
+                    break;
+                }
+
+                case '1':
+                {
+                    System.out.print(" Satu ");
+                    break;
+                }
+
+                case '2':
+                {
+                    System.out.print(" Dua ");
+                    break;
+                }
+
+                case '3':
+                {
+                    System.out.print(" Tiga ");
+                    break;
+                }
+
+                case '4':
+                {
+                    System.out.print(" Empat ");
+                    break;
+                }
+
+                case '5':
+                {
+                    System.out.print(" Lima ");
+                    break;
+                }
+
+                case '6':
+                {
+                    System.out.print(" Enam ");
+                    break;
+                }
+
+                case '7':
+                {
+                    System.out.print(" Tujuh ");
+                    break;
+                }
+
+                case '8':
+                {
+                    System.out.print(" Delapan ");
+                    break;
+                }
+
+                case '9':
+                {
+                    System.out.print(" Sembilan ");
+                    break;
+                }
+            }
+        }
+    }
+}

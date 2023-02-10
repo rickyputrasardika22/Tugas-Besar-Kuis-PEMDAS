@@ -1,0 +1,44 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_40 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int data_ricky [] = new int [4];
+		int deretGenap_ricky [] = new int [4];
+		int deretGanjil_ricky [] = new int [4];
+		int n0_ricky = 0;
+		int n1_ricky = 0;
+		
+		for(int i_ricky = 0; i_ricky < 4; i_ricky++)
+		{
+			System.out.print("Masukkan Data-" + (i_ricky+1) + " = ");
+			data_ricky [i_ricky] = ricky.nextInt();
+		}
+		
+		for(int i_ricky = 0; i_ricky < 4; i_ricky++)
+		{
+			if(data_ricky[i_ricky] % 2 == 0)
+			{
+				deretGenap_ricky [n0_ricky]= data_ricky[i_ricky];
+				n0_ricky++;
+			}
+			else if(data_ricky[i_ricky] % 2 == 1)
+			{
+				deretGanjil_ricky [n1_ricky]= data_ricky[i_ricky];
+				n1_ricky++;
+			}
+		}	
+		System.out.print("Deret Bilangan Genap adalah " );
+		for(int i_ricky = 0; i_ricky < n0_ricky; i_ricky++)
+		{
+			System.out.print(deretGenap_ricky[i_ricky] + " ");
+		}	
+		System.out.print("\nDeret Bilangan Ganjil adalah " );
+		for(int i_ricky = 0; i_ricky < n1_ricky; i_ricky++)
+		{
+			System.out.print(deretGanjil_ricky[i_ricky] + " ");
+		}
+	}
+}

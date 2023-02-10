@@ -1,0 +1,26 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_37 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int data_ricky;
+		int total_ricky = 0;
+		
+		for(int i_ricky = 1; i_ricky <= 4; i_ricky++)
+		{
+			System.out.print("Masukkan Data-" + i_ricky + " = " );
+			data_ricky = ricky.nextInt();
+			
+			if(data_ricky< 0)
+			{
+				total_ricky = i_ricky;
+			}
+		
+		}
+		System.out.print("Jumlah Bilangan Negatif adalah " + total_ricky);
+		
+				kl
+	}
+}

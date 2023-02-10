@@ -1,0 +1,20 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_06 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int banyakAngka_ricky;
+		
+		System.out.print("Masukkan Angka = ");
+		banyakAngka_ricky = ricky.nextInt();
+		
+		// deklarasi array
+		int [] angka_ricky = new int[banyakAngka_ricky];
+		angka_ricky [] = angka_ricky * banyakAngka_ricky;
+		
+		//output array
+		System.out.print("Hasil Perkalian Semua Digit Adalah " + );
+	}
+}

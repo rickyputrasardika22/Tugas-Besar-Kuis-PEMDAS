@@ -1,0 +1,29 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_25 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		String lanjut_ricky = "Ya";
+		int karakter_ricky = 0;
+		
+		while(lanjut_ricky.equals("Ya") || lanjut_ricky.equals("YA") || lanjut_ricky.equals("ya"))
+		{
+			System.out.print("Masukkan Karakter = ");
+			karakter_ricky = ricky.nextInt();
+			
+			if(karakter_ricky <= 0 || karakter_ricky >= 0)
+			{
+				System.out.println("Karakter " + karakter_ricky + " adalah Angka");
+			}
+			else
+			{
+				System.out.println("Karakter " + karakter_ricky + " bukan merupakan Angka");
+			}
+			
+		System.out.print("\nApakah ingin lanjut ? ");
+		lanjut_ricky = ricky.next();
+		}	jj
+	}
+}

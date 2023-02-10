@@ -1,0 +1,29 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_33 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		
+		System.out.print("Berapa Banyak Anda Ingin Mengulang : ");
+		int perulangan_Dzaky = ricky.nextInt();
+		
+		for (int i_Dzaky = 1; i_Dzaky <= perulangan_Dzaky; i_Dzaky++) 
+		{
+			System.out.println();
+		System.out.print("Masukkan Angka : ");
+		int angka_Dzaky = ricky.nextInt();
+		
+		System.out.print("Angka Tersebut Dibalik Menjadi : ");
+		while (angka_Dzaky > 0) 
+		{
+			int k_Dzaky = angka_Dzaky % 10;
+			angka_Dzaky = angka_Dzaky / 10;
+			System.out.print(k_Dzaky);
+			
+					
+		}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+package tugasBesar;
+
+public class RickyPutraSardika_13 
+{
+	public static void main(String[] args) 
+	{
+		 int i, j;
+	        i = 100;
+	        j = 200;
+
+	        // mencari titik tengah antara i dan j
+	        while(++i < --j) ; // tidak ada tubuh loop ini
+
+	        System.out.println("Titik-tengah adalah " + j);	
+	}
+}

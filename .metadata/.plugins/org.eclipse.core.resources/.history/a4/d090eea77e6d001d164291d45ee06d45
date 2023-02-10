@@ -1,0 +1,29 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_38 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int data_ricky;
+		int total_ricky = 0;
+		
+		for(int i_ricky = 1; i_ricky <= 4; i_ricky++)
+		{
+			System.out.print("Masukkan Data-" + i_ricky + " = " );
+			data_ricky = ricky.nextInt();
+			
+			if(data_ricky > 0)
+			{
+				total_ricky = total_ricky + data_ricky;
+			}
+			else if(data_ricky<0)
+			{
+				total_ricky = 0;
+			}	
+		}
+		System.out.print("Hasil Penjumlahan Bilangan Positif adalah " + total_ricky);
+		
+				
+	}
+}

@@ -1,0 +1,31 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_40 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int data_ricky;
+		int deretGenap = 0;
+		int deretGanjil = 0;
+		
+		for(int i_ricky = 1; i_ricky <= 4; i_ricky++)
+		{
+			System.out.print("Masukkan Data-" + i_ricky + " = " );
+			data_ricky = ricky.nextInt();
+			
+			if(data_ricky%2 == 1)
+			{
+				deretGanjil = i_ricky;
+			}
+			else if(data_ricky%2 == 0)
+			{
+				deretGenap = i_ricky;
+			}
+		}
+		System.out.print("Deret Bilangan Genap adalah " + deretGenap + deretGenap);
+		System.out.print("Deret Bilangan Ganjil adalah " + deretGanjil + deretGanjil);
+		
+				
+	}
+}

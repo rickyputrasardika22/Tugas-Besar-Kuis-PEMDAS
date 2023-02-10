@@ -1,0 +1,34 @@
+package tugasBesar;
+import java.util.Scanner;
+public class RickyPutraSardika_35 
+{
+	public static void main(String[] args) 
+	{
+		Scanner ricky = new Scanner(System.in);
+		int angka_ricky;
+		
+		System.out.print("Masukkan Angka = ");
+		angka_ricky = ricky.nextInt();
+		
+		int total_ricky [] = new int [angka_ricky];
+		
+		while(angka_ricky > 0)
+		{
+			total_ricky[angka_ricky] = total_ricky[angka_ricky] + angka_ricky;
+			System.out.print(angka_ricky + " + ");
+			
+		}	
+		
+//		
+//		int i=1, jum=0;
+//		
+//		while(i<=10)
+//		{
+//			jum=jum+i;
+//			System.out.print(i+"+"); 
+//			i++;
+//		}
+//		System.out.println();
+//		System.out.println("Penjumlahan 10 Himpunan pertama = " + jum);
+	}	
+}
